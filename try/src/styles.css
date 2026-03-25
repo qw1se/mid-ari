@@ -1,0 +1,99 @@
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0f172a;
+color:white;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#020617;
+}
+
+.nav a{
+margin-left:20px;
+color:white;
+text-decoration:none;
+}
+
+.grid{
+padding:30px;
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:15px;
+border-radius:10px;
+text-align:center;
+}
+
+.card img{
+height:150px;
+object-fit:contain;
+width:100%;
+background:white;
+border-radius:6px;
+}
+
+button{
+margin-top:10px;
+padding:8px 12px;
+border:none;
+background:#22c55e;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+.cart{
+padding:30px;
+}
+
+.cart-item{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#1e293b;
+padding:10px;
+margin-bottom:10px;
+border-radius:6px;
+}
+
+.cart-item button{
+background:#ef4444;
+}
+
+.category-filter {
+  padding: 20px 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-filter button {
+  background: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.category-filter button.active {
+  background: #22c55e;
+  border-color: #22c55e;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #94a3b8;
+}
